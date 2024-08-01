@@ -1,0 +1,31 @@
+1. Chair 1
+   - Price: $199.99
+   - Description: Ergonomic design with lumbar support and adjustable armrests for long gaming sessions.
+
+2. Chair 2
+   - Price: $249.99
+   - Description: High-back racing style chair with breathable mesh and headrest for superior comfort.
+
+3. Chair 3
+   - Price: $179.99
+   - Description: Sleek black gaming chair with ergonomic design and padded seat for extended gaming sessions.
+
+4. Chair 4
+   - Price: $299.99
+   - Description: Premium leather gaming chair with massaging lumbar support and customizable LED lighting.
+
+5. Chair 5
+   - Price: $159.99
+   - Description: Compact gaming chair with swivel function and adjustable height for small gaming spaces.
+
+6. Chair 6
+   - Price: $219.99
+   - Description: Racing-style gaming chair with built-in footrest and reclining function for ultimate relaxation.
+
+7. Chair 7
+   - Price: $189.99
+   - Description: Stylish gaming chair with colorful design options and memory foam padding for added comfort.
+
+8. Chair 8
+   - Price: $269.99
+   - Description: Ergonomic gaming chair with cooling gel-infused memory foam and 4D armrest adjustments for personalized comfort.
