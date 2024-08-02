@@ -19,7 +19,7 @@ app.get('/gamingChairs', (req, res) => {
     const protocol = req.protocol;
     const updatedChairsData = chairsData.map((chair, index) => ({
         ...chair,
-        image: `${protocol}://${hostname}/assets/Gaming-Chair-${index + 1}.jpg` // Generate dynamic image URLs
+        image: `${protocol}://${hostname}/assets/Gaming-Chair-${index + 1}.png` // Generate dynamic PNG image URLs
     }));
     res.status(200).json(updatedChairsData);
 });
