@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const app = express();
-const PORT = 8080;
+const PORT = process.env.PORT || 8080; // Update the PORT to use environment variable or default to 8080
 const chairsData = require('./chairs.json'); // Import the JSON file
 
 app.use(express.json());
@@ -14,10 +14,12 @@ app.use(cors());
 app.use('/assets', express.static('assets'));
 
 app.get('/gamingChairs', (req, res) => {
-    // Update the image paths to be absolute URLs
+    // Update the image paths to be absolute URLs with current hostname
+    const hostname = req.hostname;
+    const protocol = req.protocol;
     const updatedChairsData = chairsData.map((chair, index) => ({
         ...chair,
-        image: http://localhost:${PORT}/assets/Gaming-Chair-${index + 1}.jpg  // Assuming images are named as 'Gaming-Chair-1.jpg', 'Gaming-Chair-2.jpg', etc.
+        image: `${protocol}://${hostname}/assets/Gaming-Chair-${index + 1}.jpg` // Generate dynamic image URLs
     }));
     res.status(200).json(updatedChairsData);
 });
