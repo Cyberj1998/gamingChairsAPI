@@ -1,51 +1,59 @@
 [
     {
-        "name": "Chair 1",
+        "name": "Evil Geniuses Gaming Chair",
         "prize": "$199.99",
         "description": "Ergonomic design with lumbar support and adjustable armrests for long gaming sessions.",
-        "image": "./assets/Gaming-Chair-1"
+        "image": "./assets/Gaming-Chair-1",
+        "key": 0
     },
     {
-        "name": "Chair 2",
+        "name": "WOW Gaming Chair",
         "prize": "$249.99",
         "description": "High-back racing style chair with breathable mesh and headrest for superior comfort.",
-        "image": "./assets/Gaming-Chair-2"
+        "image": "./assets/Gaming-Chair-2",
+        "key": 1
     },
     {
-        "name": "Chair 3",
+        "name": "Team Secret Gaming Chair",
         "prize": "$179.99",
         "description": "Sleek black gaming chair with ergonomic design and padded seat for extended gaming sessions.",
-        "image": "./assets/Gaming-Chair-3"
+        "image": "./assets/Gaming-Chair-3",
+        "key": 2
     },
     {
-        "name": "Chair 4",
+        "name": "OG Gaming Chair",
         "prize": "$299.99",
         "description": "Premium leather gaming chair with massaging lumbar support and customizable LED lighting.",
-        "image": "./assets/Gaming-Chair-4"
+        "image": "./assets/Gaming-Chair-4",
+        "key": 3
     },
     {
-        "name": "Chair 5",
+        "name": "Team Liquid Gaming Chair",
         "prize": "$159.99",
         "description": "Compact gaming chair with swivel function and adjustable height for small gaming spaces.",
-        "image": "./assets/Gaming-Chair-5"
+        "image": "./assets/Gaming-Chair-5",
+        "key": 4
     },
     {
-        "name": "Chair 6",
+        "name": "Overwatch Orange Model",
         "prize": "$219.99",
         "description": "Racing-style gaming chair with built-in footrest and reclining function for ultimate relaxation.",
-        "image": "./assets/Gaming-Chair-6"
+        "image": "./assets/Gaming-Chair-6",
+        "key": 5
     },
     {
-        "name": "Chair 7",
+        "name": "Overwatch Pink Model",
         "prize": "$189.99",
         "description": "Stylish gaming chair with colorful design options and memory foam padding for added comfort.",
-        "image": "./assets/Gaming-Chair-7"
+        "image": "./assets/Gaming-Chair-7",
+        "key": 6
     },
     {
-        "name": "Chair 8",
+        "name": "Overwatch Red Model",
         "prize": "$269.99",
         "description": "Ergonomic gaming chair with cooling gel-infused memory foam and 4D armrest adjustments for personalized comfort.",
-        "image": "./assets/Gaming-Chair-8"
+        "image": "./assets/Gaming-Chair-8",
+        "key": 7
     }
 ]
 
